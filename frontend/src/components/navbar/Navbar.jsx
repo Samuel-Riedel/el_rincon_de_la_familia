@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./Navbar.css";
 
 import logo from "../assets/logo.png";
+//import rincon from "../assets/rincon.jpg";
 import cart_icon from "../assets/cart_icon.png";
 import { Link } from "react-router-dom";
 
@@ -11,8 +12,8 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <div className="nav-logo">
-        <img src={logo} alt="logo" />
-        <p> SHOPPER</p>
+        <img src={logo} alt="logo" className="rincon" />
+        <p>El Rincon de la Familia</p>
       </div>
       <ul className="nav-menu">
         <li
