@@ -34,3 +34,10 @@
   display: flex;
   gap: 20px;
 }
+
+.footer-icons-container {
+  padding: 10x;
+  padding-bottom: 6px;
+  background: #fbfbfb;
+  border: 1px solid #ebebeb;
+}
