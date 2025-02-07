@@ -9,6 +9,7 @@
 .footer-logo {
   display: flex;
   align-items: center;
+  flex-direction: column; /*modified this to center social media logos*/
   gap: 20px;
 }
 
