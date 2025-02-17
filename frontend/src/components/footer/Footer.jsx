@@ -32,7 +32,13 @@ const Footer = () => {
             </a>
           </div>
           <div className="footer-icons-container">
-            <img src={paypal_solid} alt="" className="paypal-logo" />
+            <a
+              href="https://www.paypal.com/ncp/payment/JZ4RG86GDC9ZC"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={paypal_solid} alt="" className="paypal-logo" />
+            </a>
           </div>
           <div className="footer-icons-container">
             <a
