@@ -15,7 +15,7 @@ const Footer = () => {
         <img src={rincon} alt="" className="rincon-footer" />
         <p>El Rincón de la Familia</p>
         <ul className="footer-links">
-          <li>Nuestra empresa</li>
+          {/*<li>Nuestra empresa</li>*/}
           <li>Productos</li>
           <li>Nuestras oficinas</li>
           <li>Sobre nosotros</li>
