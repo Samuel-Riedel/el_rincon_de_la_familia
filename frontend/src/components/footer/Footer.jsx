@@ -35,7 +35,13 @@ const Footer = () => {
             <img src={paypal_solid} alt="" className="paypal-logo" />
           </div>
           <div className="footer-icons-container">
-            <img src={whatsapp_icon} alt="" />
+            <a
+              href="https://wa.me/+34624217879"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={whatsapp_icon} alt="" />
+            </a>
           </div>
         </div>
       </div>
