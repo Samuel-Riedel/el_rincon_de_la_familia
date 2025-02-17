@@ -15,11 +15,11 @@ const Footer = () => {
         <img src={rincon} alt="" className="rincon-footer" />
         <p>El Rincón de la Familia</p>
         <ul className="footer-links">
-          <li>Company</li>
-          <li>Products</li>
-          <li>Offices</li>
-          <li>About</li>
-          <li>Contact</li>
+          <li>Nuestra empresa</li>
+          <li>Productos</li>
+          <li>Nuestras oficinas</li>
+          <li>Sobre nosotros</li>
+          <li>Contáctanos</li>
         </ul>
         <div className="footer-social-icon">
           <div className="footer-icons-container">
