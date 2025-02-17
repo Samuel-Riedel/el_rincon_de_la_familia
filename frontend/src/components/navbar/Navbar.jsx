@@ -58,9 +58,15 @@ const Navbar = () => {
         </li>
       </ul>
       <div className="nav-login-cart">
-        <Link to="/login">
-          <button>Login</button>
-        </Link>
+        {/*<Link to="/login">*/}
+        <a
+          href="https://www.paypal.com/ncp/payment/JZ4RG86GDC9ZC"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button>Donaciones</button>
+        </a>
+        {/*</Link>*/}
         <Link to="/cart">
           <img src={cart_icon} alt="Cart Icon" />
         </Link>
