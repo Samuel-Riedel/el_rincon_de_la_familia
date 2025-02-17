@@ -23,7 +23,13 @@ const Footer = () => {
         </ul>
         <div className="footer-social-icon">
           <div className="footer-icons-container">
-            <img src={facebook_solid} alt="" className="facebook-logo" />
+            <a
+              href="https://www.facebook.com/elrinfam?rdid=GYFdDYL3jijrDq3s&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F18rhZFndve%2F#"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={facebook_solid} alt="" className="facebook-logo" />
+            </a>
           </div>
           <div className="footer-icons-container">
             <img src={paypal_solid} alt="" className="paypal-logo" />
