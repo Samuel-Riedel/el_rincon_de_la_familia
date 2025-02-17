@@ -13,7 +13,7 @@ const Navbar = () => {
     <div className="navbar">
       <div className="nav-logo">
         <img src={rincon} alt="logo" className="rincon" />
-        <p>El Rincon de la Familia</p>
+        <p>El Rincón de la Familia</p>
       </div>
       <ul className="nav-menu">
         <li
