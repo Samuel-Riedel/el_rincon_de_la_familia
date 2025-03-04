@@ -3,22 +3,22 @@
   margin: 0px 170px;
 }
 
-.productdiplay-left {
+.productdisplay-left {
   display: flex;
   gap: 17px;
 }
 
-.productdiplay-img-list {
+.productdisplay-img-list {
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
 
-.productdiplay-img-list img {
+.productdisplay-img-list img {
   height: 163px;
 }
 
-.productdiplay-main-img {
+.productdisplay-main-img {
   width: 586px;
   height: 700px;
 }
