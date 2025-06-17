@@ -3,6 +3,7 @@ import "./Hero.css";
 import hand_icon from "../assets/hand_icon.png";
 import arrow_icon from "../assets/arrow.png";
 import hero_image from "../assets/hero_image.png";
+import Muebles_front_page from "../assets/WA Images/Muebles_front_page.png";
 //import mueble from "../assets/mueble.png";
 
 const Hero = () => {
@@ -24,7 +25,7 @@ const Hero = () => {
         </div>
       </div>
       <div className="hero-right">
-        <img src={hero_image} alt="" />
+        <img src={Muebles_front_page} alt="" />
       </div>
     </div>
   );
