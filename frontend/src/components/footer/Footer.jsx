@@ -3,8 +3,9 @@ import "./Footer.css";
 //import footer_logo from "../assets/logo_big.png";
 //import instagram_icon from "../assets/instagram_icon.png";
 //import pintester_icon from "../assets/pintester_icon.png";
+//import rincon from "../assets/rincon.jpg";
+import main_logo from "../assets/logos/main_logo.jpg";
 import whatsapp_icon from "../assets/whatsapp_icon.png";
-import rincon from "../assets/rincon.jpg";
 import paypal_solid from "../assets/cc-paypal-brands-solid.svg";
 import facebook_solid from "../assets/facebook-brands-solid.svg";
 
@@ -12,8 +13,8 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="footer-logo">
-        <img src={rincon} alt="" className="rincon-footer" />
-        <p>El Rincón de la Familia</p>
+        <img src={main_logo} alt="" className="rincon-footer" />
+        <p>Tienda Solidaria RinFam</p>
         <ul className="footer-links">
           {/*<li>Nuestra empresa</li>*/}
           <li>Productos</li>

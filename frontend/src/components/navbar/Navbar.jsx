@@ -2,32 +2,36 @@ import React, { useState } from "react";
 import "./Navbar.css";
 
 //import logo from "../assets/logo.png";
-//import rincon from "../assets/rincon.jpg";
 //import cart_icon from "../assets/cart_icon.png";
-//import rincon_logo from "../assets/logos/rincon_logo.png";
-import rimfam_logo from "../assets/logos/rimfam_logo.png";
-import casita_rincon_de_la_familia from "../assets/logos/casita_rincon_de_la_familia.jpg";
+
+import rincon from "../assets/logos/casita_rincon_de_la_familiaV2.jpg";
+import main_logo from "../assets/logos/main_logo.jpg";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [menu, setMenu] = useState("shop");
+  const [showMenu, setShowMenu] = useState(false);
 
   return (
     <div className="navbar">
       <div className="nav-logo">
-        <a href="https://www.samuelriedel.com">
-          <img src={rimfam_logo} alt="logo" className="rincon" />
+        <a href="https://stirring-marigold-91a8a5.netlify.app/">
+          <img src={main_logo} alt="logo" className="rincon" />
         </a>
-        <p>Tienda RimFam</p>
+
+        <p>RinFam</p>
       </div>
-      <ul className="nav-menu">
+      <div className="nav-toggle" onClick={() => setShowMenu(!showMenu)}>
+        ☰
+      </div>
+      <ul className={`nav-menu ${showMenu ? "active" : ""}`}>
         <li
           onClick={() => {
-            setMenu("shop");
+            setMenu("Tienda");
           }}
         >
           <Link style={{ textDecoration: "none" }} to="/">
-            Shop
+            Tienda
           </Link>
           {menu === "shop" ? <hr /> : <></>}
         </li>
@@ -37,7 +41,7 @@ const Navbar = () => {
           }}
         >
           <Link style={{ textDecoration: "none" }} to="/mens">
-            Mens
+            Muebles
           </Link>
           {menu === "mens" ? <hr /> : <></>}
         </li>
@@ -47,7 +51,7 @@ const Navbar = () => {
           }}
         >
           <Link style={{ textDecoration: "none" }} to="/womens">
-            Women
+            Ropa
           </Link>
           {menu === "womens" ? <hr /> : <></>}
         </li>
@@ -57,11 +61,12 @@ const Navbar = () => {
           }}
         >
           <Link style={{ textDecoration: "none" }} to="/kids">
-            Kids
+            Otros
           </Link>
           {menu === "kids" ? <hr /> : <></>}
         </li>
       </ul>
+
       <div className="nav-login-cart">
         {/*<Link to="/login">*/}
         <a
@@ -71,14 +76,16 @@ const Navbar = () => {
         >
           <button>Donaciones</button>
         </a>
-        <div className="casita_rincon_de_la_familia">
-          <a href="https://www.elrincondelafamilia.org/">
-            <img src={casita_rincon_de_la_familia} alt="Cart Icon" />
-          </a>
-        </div>
+        <a
+          href="https://www.elrincondelafamilia.org/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={rincon} alt="Cart Icon" />
+        </a>
         {/*</Link>
         <Link to="/cart">
-          <img src={rincon_logo} alt="Cart Icon" />
+          <img src={rincon} alt="Cart Icon" />
         </Link>*/}
         <div className="nav-cart-count">0</div>
       </div>
