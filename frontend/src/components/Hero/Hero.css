@@ -57,3 +57,42 @@
   align-items: center;
   justify-content: center;
 }
+
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    height: auto;
+    padding: 40px 20px;
+  }
+
+  .hero-left {
+    padding-left: 0;
+    align-items: center;
+    /*text-align: center;*/ /* I might need to remove this text center to fix empty white space in each word*/
+  }
+
+  .hero-left h2 {
+    font-size: 20px;
+  }
+
+  .hero-left p {
+    font-size: 48px;
+  }
+
+  .hero-hand-icon img {
+    width: 50px;
+  }
+
+  .hero-latest-button {
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+  }
+
+  .hero-right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

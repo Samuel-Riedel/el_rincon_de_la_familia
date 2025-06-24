@@ -115,6 +115,8 @@
   }
 
   .nav-login-cart {
+    /*Deberia esconder el cart icon en mobile con un display: none;*/
+    /*display: none;*/
     flex-direction: column;
     gap: 10px;
   }
