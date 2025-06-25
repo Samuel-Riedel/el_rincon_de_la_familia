@@ -54,13 +54,10 @@
     justify-content: flex-end;
   }
 }
-
-@media (max-width: 768px) {
-  .offers-left {
-    text-align: center;
-    align-items: center;
-  }
-  .offers img {
-    display: none;
-  }
+.offers-left {
+  text-align: center;
+  align-items: center;
+}
+.offers img {
+  display: none;
 }
