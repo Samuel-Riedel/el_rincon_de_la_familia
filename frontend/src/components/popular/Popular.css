@@ -44,4 +44,8 @@
     flex: 0 0 30%;
     scroll-snap-align: center;
   }
+
+  .popular h1 {
+    text-align: center;
+  }
 }
