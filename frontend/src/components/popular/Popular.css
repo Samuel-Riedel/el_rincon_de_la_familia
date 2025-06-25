@@ -24,3 +24,24 @@
   display: flex;
   gap: 30px;
 }
+
+@media (max-width: 768px) {
+  .popular-item {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    gap: 16px;
+    padding: 10px;
+    max-width: 100%;
+  }
+
+  .popular-item::-webkit-scrollbar {
+    display: none;
+  }
+
+  .popular-item > * {
+    flex: 0 0 30%;
+    scroll-snap-align: center;
+  }
+}

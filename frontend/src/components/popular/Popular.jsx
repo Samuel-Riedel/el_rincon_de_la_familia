@@ -6,7 +6,7 @@ import Item from "../item/Item.jsx";
 
 const Popular = () => {
   return (
-    <div className="popular">
+    <div className="popular contenedor-scroll">
       <h1>Popular en RINFAM</h1>
       <hr />
       <div className="popular-item">
