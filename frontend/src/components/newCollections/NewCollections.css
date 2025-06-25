@@ -26,3 +26,24 @@
   margin-top: 50px;
   gap: 30px;
 }
+
+@media (max-width: 768px) {
+  .collections {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    gap: 16px;
+    padding: 10px;
+    max-width: 100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+
+  .collections::-webkit-scrollbar {
+    display: none;
+  }
+
+  .collections h1 {
+    text-align: center;
+  }
+}
