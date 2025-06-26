@@ -53,3 +53,33 @@
   font-size: 16px;
   cursor: pointer;
 }
+
+@media (max-width: 768px) {
+  .newsletter {
+    margin: 0%;
+    padding: 15%;
+    gap: 10px;
+    justify-content: flex-end;
+    width: 55%;
+  }
+
+  .offers img {
+    display: none;
+  }
+  .subscribe-input-newsletter {
+    flex-direction: column;
+  }
+  .newsletter input {
+    width: 350px;
+    /* this must be deleted before prouction, used to see colors*/
+    border-radius: 100px;
+    border-color: red;
+    border-style: solid;
+    border-width: 2px;
+  }
+
+  .newsletter button {
+    margin-top: 1vh;
+    /*display: none;*/
+  }
+}
