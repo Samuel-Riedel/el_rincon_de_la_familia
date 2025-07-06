@@ -1,6 +1,14 @@
+/*This fixes overflow on website mobile version*/
+html,
+body {
+  overflow-x: hidden;
+}
+
+/*This is used for debugging*/
 * {
   outline: 1px solid red;
 }
+/*This is used for debugging*/
 
 .App {
   text-align: center;
