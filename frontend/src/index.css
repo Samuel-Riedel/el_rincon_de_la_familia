@@ -17,3 +17,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+@media (max-width: 768px) {
+  .footer,
+  .popular,
+  .newsletter {
+    padding: 0 20px; /* margen horizontal uniforme */
+  }
+}
