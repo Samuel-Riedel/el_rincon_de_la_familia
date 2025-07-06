@@ -112,6 +112,7 @@
 
   .nav-toggle {
     display: block;
+    height: 35px;
   }
 
   .nav-login-cart {
