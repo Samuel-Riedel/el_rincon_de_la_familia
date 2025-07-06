@@ -50,9 +50,23 @@
 
 @media (max-width: 768px) {
   .offers {
+    width: 60%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center; /* centers content horizontally */
+    margin: 0 auto 150px auto; /* top: 0, sides: auto, bottom: 150px */
+    padding: 0 20px; /* reduce padding to avoid overflow */
+    background: linear-gradient(180deg, #fde1ff 0%, #fde1ff 0%, #e1ffea22 60%);
+  }
+  /*.offers {
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
     margin: 1%;
     justify-content: flex-end;
-  }
+  }*/
   .offers-left {
     text-align: center;
     align-items: center;
