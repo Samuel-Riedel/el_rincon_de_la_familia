@@ -56,8 +56,9 @@
 
 @media (max-width: 768px) {
   .newsletter {
-    margin: 0%;
-    padding: 15%;
+    margin-top: 100px;
+    box-sizing: border-box;
+    padding: 0.5%;
     gap: 10px;
     justify-content: flex-end;
     width: 55%;
@@ -70,6 +71,9 @@
     flex-direction: column;
   }
   .newsletter input {
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
     width: 350px;
     /* this must be deleted before prouction, used to see colors*/
     border-radius: 100px;
