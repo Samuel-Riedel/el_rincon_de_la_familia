@@ -48,4 +48,8 @@
   .popular h1 {
     text-align: center;
   }
+  .popular-item img {
+    height: 415px;
+    width: 350px;
+  }
 }

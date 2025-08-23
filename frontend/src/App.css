@@ -5,9 +5,9 @@ body {
 }
 
 /*This is used for debugging*/
-* {
+/** {
   outline: 1px solid red;
-}
+}*/
 /*This is used for debugging*/
 
 .App {
