@@ -2,8 +2,9 @@ import React from "react";
 import "./Hero.css";
 import hand_icon from "../assets/hand_icon.png";
 import arrow_icon from "../assets/arrow.png";
-//import hero_image from "../assets/hero_image.png";
 import Muebles_front_page from "../assets/WA Images/Muebles_front_page.png";
+
+//import hero_image from "../assets/hero_image.png";
 //import mueble from "../assets/mueble.png";
 
 const Hero = () => {
@@ -24,7 +25,7 @@ const Hero = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <div className="hero-latest-button">
+          <div className="hero-latest-button visita-tienda">
             <div>Visita la Tienda</div>
             <img src={arrow_icon} alt="" />
           </div>
