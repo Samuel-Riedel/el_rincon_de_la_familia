@@ -10,19 +10,25 @@ const Hero = () => {
   return (
     <div className="hero">
       <div className="hero-left">
-        <h2>Productos Mas Recientes</h2>
+        <h2>No Te Pierdas Las Mejores</h2>
         <div>
           <div className="hero-hand-icon">
-            <p>Nueva</p>
+            <p>Ofertas</p>
             <img src={hand_icon} alt="" />
           </div>
-          <p>Colección</p>
-          <p>Para Todos</p>
+          <p>Para este</p>
+          <p>Verano</p>
         </div>
-        <div className="hero-latest-button">
-          <div>Nueva Collección</div>
-          <img src={arrow_icon} alt="" />
-        </div>
+        <a
+          href="https://maps.app.goo.gl/6shkscfZ1tWUxLK67"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div className="hero-latest-button">
+            <div>Visita la Tienda</div>
+            <img src={arrow_icon} alt="" />
+          </div>
+        </a>
       </div>
       <div className="hero-right">
         <img src={Muebles_front_page} alt="" />

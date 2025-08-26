@@ -37,6 +37,8 @@ function App() {
 
           <Route path="/cart" element={<Cart />} />
           <Route path="/login" element={<LoginSignup />} />
+
+          <Route path="ubicanos" element={<ubicanos />} />
         </Routes>
         <Footer />
       </BrowserRouter>
