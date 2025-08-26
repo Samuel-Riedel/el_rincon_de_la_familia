@@ -24,6 +24,10 @@
   display: flex;
   gap: 30px;
 }
+.popular-item img {
+  height: 415px;
+  width: 350px;
+}
 
 @media (max-width: 768px) {
   .popular-item {

@@ -31,7 +31,7 @@ const Navbar = () => {
           }}
         >
           <Link style={{ textDecoration: "none" }} to="/">
-            Tienda
+            Inicio
           </Link>
           {menu === "shop" ? <hr /> : <></>}
         </li>
@@ -41,7 +41,7 @@ const Navbar = () => {
           }}
         >
           <Link style={{ textDecoration: "none" }} to="/mens">
-            Muebles
+            Nosotros
           </Link>
           {menu === "mens" ? <hr /> : <></>}
         </li>
@@ -51,7 +51,7 @@ const Navbar = () => {
           }}
         >
           <Link style={{ textDecoration: "none" }} to="/womens">
-            Ropa
+            Tienda
           </Link>
           {menu === "womens" ? <hr /> : <></>}
         </li>
@@ -61,7 +61,7 @@ const Navbar = () => {
           }}
         >
           <Link style={{ textDecoration: "none" }} to="/kids">
-            Otros
+            Contacto
           </Link>
           {menu === "kids" ? <hr /> : <></>}
         </li>
