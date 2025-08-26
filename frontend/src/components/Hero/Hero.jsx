@@ -21,6 +21,7 @@ const Hero = () => {
           <p>Verano</p>
         </div>
         <a
+          className="visita-tienda"
           href="https://maps.app.goo.gl/6shkscfZ1tWUxLK67"
           target="_blank"
           rel="noopener noreferrer"

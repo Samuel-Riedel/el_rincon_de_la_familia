@@ -124,7 +124,7 @@
 }
 
 /* este elimina el visited link de los browsers*/
-a:visited {
+.visita-tienda:visited {
   color: #ff4141;
 }
 
