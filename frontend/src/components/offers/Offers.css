@@ -59,7 +59,7 @@
     align-items: center; /* centers content horizontally */
     margin: 0 auto 150px auto; /* top: 0, sides: auto, bottom: 150px */
     padding: 0 20px; /* reduce padding to avoid overflow */
-    background: linear-gradient(180deg, #fde1ff 0%, #fde1ff 0%, #e1ffea22 60%);
+    background: linear-gradient(180deg, #2a66a1 0%, #2a66a1 0%, #e1ffea22 60%);
   }
   /*.offers {
     flex-direction: column;
