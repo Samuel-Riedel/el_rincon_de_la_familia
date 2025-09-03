@@ -1,6 +1,6 @@
 import React from "react";
 import "./Hero.css";
-import hand_icon from "../assets/hand_icon.png";
+//import hand_icon from "../assets/hand_icon.png";
 import arrow_icon from "../assets/arrow.png";
 import Muebles_front_page from "../assets/WA Images/Muebles_front_page.png";
 
@@ -15,7 +15,7 @@ const Hero = () => {
         <div>
           <div className="hero-hand-icon">
             <p>Ofertas</p>
-            {/*<img src={hand_icon} alt="" />*/}
+            {/*<img src={hand_icon} alt="" /> Elimine este icon ya que arruinaba el UX*/}
           </div>
           <p>Para este</p>
           <p>Otoño</p>
