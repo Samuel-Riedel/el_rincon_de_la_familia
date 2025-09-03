@@ -77,7 +77,7 @@
     width: 350px;
     /* this must be deleted before prouction, used to see colors*/
     border-radius: 100px;
-    border-color: red;
+    /*border-color: red;*/
     border-style: solid;
     border-width: 2px;
   }
