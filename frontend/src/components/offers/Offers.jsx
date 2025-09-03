@@ -15,7 +15,7 @@ const Offers = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <button>Visita la Tienda!</button>
+          <button>Visita la Tienda</button>
         </a>
       </div>
       <div className="offers-right">
