@@ -38,12 +38,11 @@
     max-width: 100%;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   }
-
+  .new-collections h1 {
+    text-align: center;
+    width: auto;
+  }
   .collections::-webkit-scrollbar {
     display: none;
-  }
-
-  .collections h1 {
-    text-align: center;
   }
 }
