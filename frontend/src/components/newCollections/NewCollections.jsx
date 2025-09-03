@@ -15,8 +15,8 @@ const NewCollections = () => {
               id={item.id}
               name={item.name}
               image={item.image}
-              new_price={item.new_price}
-              old_price={item.old_price}
+              //new_price={item.new_price} Removed currency from LP
+              //old_price={item.old_price} Removed currency from LP
             />
           );
         })}
