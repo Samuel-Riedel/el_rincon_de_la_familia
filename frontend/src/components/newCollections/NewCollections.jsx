@@ -13,7 +13,7 @@ const NewCollections = () => {
             <Item
               key={i}
               id={item.id}
-              name={item.name}
+              //name={item.name} Removed names from products to make it more easier to add new products each week
               image={item.image}
               //new_price={item.new_price} Removed currency from LP
               //old_price={item.old_price} Removed currency from LP
