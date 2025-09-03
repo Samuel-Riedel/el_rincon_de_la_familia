@@ -61,6 +61,10 @@
     padding: 0 20px; /* reduce padding to avoid overflow */
     background: linear-gradient(180deg, #2a66a1 0%, #2a66a1 0%, #e1ffea22 60%);
   }
+.offers background{
+  padding: 100px 20px; /* reduce padding to avoid overflow */
+}
+  
   /*.offers {
     flex-direction: column;
     flex-wrap: wrap;

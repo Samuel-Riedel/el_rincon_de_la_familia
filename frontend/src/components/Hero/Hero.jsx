@@ -15,7 +15,7 @@ const Hero = () => {
         <div>
           <div className="hero-hand-icon">
             <p>Ofertas</p>
-            <img src={hand_icon} alt="" />
+            {/*<img src={hand_icon} alt="" />*/}
           </div>
           <p>Para este</p>
           <p>Otoño</p>
