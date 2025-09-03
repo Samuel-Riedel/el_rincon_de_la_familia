@@ -92,4 +92,7 @@
   .newsletter {
     height: auto; /* Let it grow with content */
   }
+  .newsletter {
+    text-align: center;
+  }
 }
