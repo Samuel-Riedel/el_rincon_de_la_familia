@@ -40,7 +40,9 @@ const Navbar = () => {
             setMenu("mens");
           }}
         >
-          <Link style={{ textDecoration: "none" }} to="/mens">
+          <Link style={{ textDecoration: "none" }} to="/">
+            {" "}
+            {/*This line of code: was removed to prevent access on some old links: <Link style={{ textDecoration: "none" }} to="/mens"> */}
             Nosotros
           </Link>
           {menu === "mens" ? <hr /> : <></>}
@@ -50,7 +52,8 @@ const Navbar = () => {
             setMenu("womens");
           }}
         >
-          <Link style={{ textDecoration: "none" }} to="/womens">
+          <Link style={{ textDecoration: "none" }} to="/">
+            {/*This line of code: was removed to prevent access on some old links: <Link style={{ textDecoration: "none" }} to="/womens"> */}
             Tienda
           </Link>
           {menu === "womens" ? <hr /> : <></>}
@@ -60,7 +63,9 @@ const Navbar = () => {
             setMenu("kids");
           }}
         >
-          <Link style={{ textDecoration: "none" }} to="/kids">
+          <Link style={{ textDecoration: "none" }} to="/">
+            {" "}
+            {/*This line of code: was removed to prevent access on some old links: <Link style={{ textDecoration: "none" }} to="/kids"> */}
             Contacto
           </Link>
           {menu === "kids" ? <hr /> : <></>}
