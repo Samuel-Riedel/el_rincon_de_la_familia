@@ -40,7 +40,10 @@ const Navbar = () => {
             setMenu("mens");
           }}
         >
-          <Link style={{ textDecoration: "none" }} to="/">
+          <Link
+            style={{ textDecoration: "none" }}
+            to="https://www.whatsapp.com/channel/0029VaDv1Q5Gk1FxV3NvTa1h"
+          >
             {" "}
             {/*This line of code: was removed to prevent access on some old links: <Link style={{ textDecoration: "none" }} to="/mens"> */}
             Nosotros
@@ -52,7 +55,10 @@ const Navbar = () => {
             setMenu("womens");
           }}
         >
-          <Link style={{ textDecoration: "none" }} to="/">
+          <Link
+            style={{ textDecoration: "none" }}
+            to="https://www.google.com/maps/place/Tienda+Solidaria+-+RinFam/@41.4511068,2.2088531,17z/data=!4m7!3m6!1s0x12a4bdf1c0b13087:0x3b5fd8e18efe5841!8m2!3d41.4511068!4d2.2136167!15sCgZyaW5mYW2SARRjdWx0dXJhbF9hc3NvY2lhdGlvbuABAA!16s%2Fg%2F11xlf0b4fv?entry=tts&g_ep=EgoyMDI1MDgxOS4wIPu8ASoASAFQAw%3D%3D&skid=801040c4-766f-4036-b4aa-ec83bed89e86"
+          >
             {/*This line of code: was removed to prevent access on some old links: <Link style={{ textDecoration: "none" }} to="/womens"> */}
             Tienda
           </Link>
@@ -63,7 +69,10 @@ const Navbar = () => {
             setMenu("kids");
           }}
         >
-          <Link style={{ textDecoration: "none" }} to="/">
+          <Link
+            style={{ textDecoration: "none" }}
+            to="https://wa.me/+34624217879"
+          >
             {" "}
             {/*This line of code: was removed to prevent access on some old links: <Link style={{ textDecoration: "none" }} to="/kids"> */}
             Contacto
