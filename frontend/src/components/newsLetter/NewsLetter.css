@@ -4,7 +4,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   margin: auto;
   padding: 0px 140px;
   margin-bottom: 150px;
@@ -16,6 +16,7 @@
   color: #454545;
   font-size: 55px;
   font-weight: 600;
+  text-align: center;
 }
 
 .newsletter p {
@@ -26,12 +27,18 @@
 .newsletter div {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   background: white;
   width: 730px;
   height: 70px;
-  border-radius: 80px;
-  border: 1px solid #e3e3e3;
+}
+
+
+.newsletter img {
+  width: 50px;
+  height: 50px;
+  margin-left: 20px;
+  cursor: pointer;
 }
 
 .newsletter input {
