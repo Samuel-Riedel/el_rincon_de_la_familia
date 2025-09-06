@@ -15,7 +15,7 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <div className="nav-logo">
-        <a href="https://stirring-marigold-91a8a5.netlify.app/">
+        <a href="/">
           <img src={main_logo} alt="logo" className="rincon" />
         </a>
 

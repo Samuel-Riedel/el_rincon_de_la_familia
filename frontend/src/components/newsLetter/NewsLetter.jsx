@@ -5,12 +5,12 @@ import whatsapp_icon from "../assets/whatsapp_icon.png";
 const NewsLetter = () => {
   return (
     <div className="newsletter">
-      <h1>Obtén información exclusiva en tu correo electrónico.</h1>
-      <p>Suscríbete a nuestro boletín y mantente actualizado.</p>
+      <h1>Novedades al instante!</h1>
+      <p>Únete a nuestro canal de WhatsApp.</p>
       <div className="subscribe-input-newsletter">
         <div className="whatsappicon-newsletter">
           <a
-            href="https://wa.me/+34624217879"
+            href="https://www.whatsapp.com/channel/0029VaDv1Q5Gk1FxV3NvTa1h"
             target="_blank"
             rel="noopener noreferrer"
           >
